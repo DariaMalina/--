@@ -1,1 +1,1 @@
-[CV](https://your-github-account.github.io/rsschool-cv/cv)
+[CV](https://DariaMalina.github.io/rsschool-cv/cv)
