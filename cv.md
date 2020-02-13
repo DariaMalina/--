@@ -33,3 +33,11 @@ const rotate = (nums, k) => {
 
 I have no experience.
 
+#### Education
+
+- TSU named after Derzhavin
+- [TSMPI them. S.V. Rachmaninov](https://rachmaninov.ru/)
+
+#### English
+
+My current level is A0
