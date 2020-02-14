@@ -1,39 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DariaMa</title>
-</head>
-<body>
-    <h1>Daria Malina. CV</h1>
-    <h3>Fullname</h3>
-    <p>Malina Daria</p>
-    <h3>Contacts</h3>
-    <ul>
-        <li>Telegram: DariMalina</li>
-    <li>Email: <a href="mailto:gluto68@gmail.com">gluto68@gmail.com</a> </li>
-    <li>Phone Number: <a href="tel:+79158857569">+79158857569</a> </li>
-</ul>
-<h3>Summary</h3>
-<p>Main goals are to become an awesome developer and to find good job. I have good analytical capabilities, learn easily and my research skills are excellent and fast.</p>
-<h3>Skills</h3>
-<p>I have no experience and skills in this area.</p>
-<h3>Examples of code</h3>
-<pre><code>const rotate = (nums, k) => {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DariaMalina</title>
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="polR">
+          <img src="./Myfhoto.jpeg" alt="Photo" />
+        </div>
+
+        <section class="polL">
+          <p>
+            <i class="fas fa-user icon"></i>
+            Malina Daria
+          </p>
+          <ul>
+            <li>
+              <i class="fab fa-telegram-plane icon"></i>
+              Telegram: DariMalina
+            </li>
+            <li>
+              <i class="fas fa-at icon"></i>
+              Email:
+              <a href="mailto:gluto68@gmail.com">gluto68@gmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-phone icon"></i>
+              Phone Number:
+              <a href="tel:+79158857569">+79158857569</a>
+            </li>
+          </ul>
+        </section>
+      </header>
+
+      <h3>Summary</h3>
+      <p>
+        Main goals are to become an awesome developer and to find good job.
+      </p>
+      <p>
+        have good analytical capabilities, learn easily and my research skills
+        are excellent and fast.
+      </p>
+
+      <h3>Skills</h3>
+      <p>I have no experience and skills in this area.</p>
+      <h3>Examples of code</h3>
+      <pre><code>const rotate = (nums, k) => {
     let nums1 = nums.slice();
     const rightSide = nums1.splice(0, k + 1);
     const leftSide = nums1.splice(0);
     nums = [...leftSide, ...rightSide];
   };</code></pre>
-  <h3>Experience</h3>
-  <p>I have no experience</p>
-  <h3>Education</h3>
-  <ul>
-      <li>TSU named after Derzhavin</li>
-      <li><a href="https://rachmaninov.ru/">TSMPI them. S.V. Rachmaninov</a></li>
-  </ul>
-  <h3>English</h3>
-  <p>My current level is A0</p>
-</body>
+      <h3>Experience</h3>
+      <p>I have no experience</p>
+      <h3>Education</h3>
+      <ul>
+        <li>TSU named after Derzhavin</li>
+        <li>
+          <a href="https://rachmaninov.ru/">TSMPI them. S.V. Rachmaninov</a>
+        </li>
+      </ul>
+      <h3>English</h3>
+      <p>My current level is A0</p>
+    </div>
+  </body>
 </html>

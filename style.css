@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px 100px 15px 100px;
+}
+header {
+  width: 100%;
+  display: flex;
+  background-image: url("./back.jpg");
+  height: 300px;
+}
+.polR {
+  width: 50%;
+}
+.polL {
+  width: 50%;
+  font-size: 30px;
+  padding-top: 50px;
+}
+ul {
+  list-style-type: none;
+}
+.icon {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+}
